@@ -1,4 +1,4 @@
-def func1():
+def make_list():
     lst = []
     print('Enter numbers one at a time. Enter 0 to stop.')
     x = int(input('num:'))
@@ -7,7 +7,7 @@ def func1():
         x = int(input('num:'))
     return lst
 
-def func2(data):
+def choices(data):
     print('Here is the data:')
     print(data)
 
@@ -17,17 +17,19 @@ def func2(data):
         if choice == '1':
             print('The sum is',sum(data))
         elif choice == '2':
-            print('Not supported yet')
+            print('The min is', min(data) )
         elif choice == '3':
-            print('Not supported yet')
+            print('The max is', max(data))
         elif choice == '4':
             print('Goodbye')
             return
+        else:
+            print('Please choose 1-4')
 
 def main():
-    print("Hello, World!")
-    data = func1()
-    func2(data)
+    print("Welcome")
+    data = make_list()
+    choices(data)
 
 if __name__ == "__main__":
     main()
