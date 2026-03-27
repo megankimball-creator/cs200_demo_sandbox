@@ -1,12 +1,12 @@
 def make_list():
-    user_lst = []
+    nums = []
     print('Enter numbers one at a time. Enter 0 to stop.')
     x = int(input('num:'))
     while x != 0:
-        user_lst.append(x)
+        nums.append(x)
         x = int(input('num:'))
-    print('You added', len(user_lst), 'numbers.')
-    return  user_lst
+        print('You added', len(nums), 'numbers.')
+    return nums
 
 def choices(data):
     print('Here is the data:')
