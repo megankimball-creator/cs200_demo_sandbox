@@ -1,11 +1,11 @@
 def make_list():
-    lst = []
+    nums = []
     print('Enter numbers one at a time. Enter 0 to stop.')
     x = int(input('num:'))
     while x != 0:
-        lst.append(x)
-        x = int(input('num:'))
-    return lst
+     nums.append(x)
+     x = int(input('num:'))
+    return nums
 
 def choices(data):
     print('Here is the data:')
