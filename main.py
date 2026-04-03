@@ -8,6 +8,7 @@ def make_list():
         print('You added', len(nums), 'numbers.')
     return nums
 
+
 def choices(data):
     print('Here is the data:')
     print(data)
@@ -16,9 +17,9 @@ def choices(data):
     while True:
         choice = input('Select an option. 1-sum  2-min  3-max  4-quit')
         if choice == '1':
-            print('The sum is',sum(data))
+            print('The sum is', sum(data))
         elif choice == '2':
-            print('The min is', min(data) )
+            print('The min is', min(data))
         elif choice == '3':
             print('The max is', max(data))
         elif choice == '4':
@@ -27,10 +28,12 @@ def choices(data):
         else:
             print('Please choose 1-4')
 
+
 def main():
     print("Welcome")
     data = make_list()
     choices(data)
+
 
 if __name__ == "__main__":
     main()
