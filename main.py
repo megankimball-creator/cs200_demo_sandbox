@@ -1,3 +1,11 @@
+def foo(x, y):
+    return (x * y) + 1
+
+
+def bar(x, y):
+    return (x + y) * 2
+
+
 def make_list():
     nums = []
     print('Enter numbers one at a time. Enter 0 to stop.')
