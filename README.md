@@ -1,7 +1,7 @@
 # CS 200 Demo Sandbox
 This is a demonstration repo for **CSCI 200**, containing examples.
 
-##This is a Heading
+## This is a Heading
 
 This is a paragraph.
 This is a line in the same paragraph.
